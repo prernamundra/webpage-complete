@@ -1,0 +1,259 @@
+* {
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.page{
+    width: 100%;
+}
+.toppest-navlink {
+    background-color: rgb(0, 0, 123);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.toppest-left-navlink {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.toppest-right-navlink {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    color: white;
+}
+
+.phone {
+    display: flex;
+    gap: 10px;
+    color: white;
+    font-size: 10px;
+}
+
+.phone-icon {
+    height: 10px;
+    width: 10px;
+}
+
+.vl {
+    border-left: 1px solid white;
+    height: 10px;
+}
+
+.vl-white {
+    border-left: 1px solid black;
+    height: 10px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.navlink {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.right-navlink {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    color: black;
+}
+
+.backdrop {
+    background-color: grey;
+    /* background-image: url("https://www.jwsoftware.com/cmss_files/imagelibrary/Background-Panels/FileHandler-Business-Solutions-BG.jpg"); */
+}
+
+.bd-left-text {
+    padding: 100px 0px 100px 200px;
+    font-size: 12px;
+    color: white;
+}
+
+.contact-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    color: white;
+    /* padding: 50px; */
+}
+
+.button1 {
+    background-color: orangered;
+    border-color: orangered;
+    color: white;
+    height: 40px;
+    width: 120px;
+    margin: 50px 0px 150px 0px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    margin-top: 80px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 20px;
+    gap: 10px;
+
+}
+
+.contact-info1 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.contact-info1 input {
+    width: 100%;
+    padding: 20px
+}
+
+
+.submit {
+    background-color: orange;
+    border-color: orange;
+    color: white;
+    height: 40px;
+    width: 200px;
+    margin: 50px 0px 50px 0px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.submit-container {
+    justify-content: right;
+}
+
+.submit1 {
+    background-color: white;
+    border-color: white;
+    color: black;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    /* margin-right: 20px; */
+    border-radius: 10px;
+
+}
+
+.submit1:hover {
+    background-color: red;
+    color: white;
+}
+
+.faq {
+    background-color: rgb(221, 220, 220);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 14px;
+}
+
+.many-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border-radius: 10px;
+
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    gap: 10px;
+}
+
+.accordion1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
+    margin-top: 30px;
+}
+.foo-container {
+    width: 800px;
+}
+.hori {
+    border: 0.1px solid rgb(192, 191, 191);
+    margin: 20px 10px;
+}
+.footer{
+    background-color: rgb(0, 0, 123);
+    color: white;
+    display: flex;
+    align-items: center;
+    /* align-content: center; */
+    /* justify-items: center;  */
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+    padding-bottom: 70px;
+
+}
+.middle-footer{
+    display: flex;
+  
+}
+
+.submit2{
+    width: 200px;
+    height: 40px;
+    /* margin-right: 20px; */
+    border-radius: 30px;
+}
+
+.arrow{
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+}
+
+.right-footer{
+    /* position: relative; */
+   /* margin-top: -50px */
+}
